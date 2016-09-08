@@ -12,19 +12,22 @@ body {
 	background-color: #849FB9; 
 }
 
-h1, h3, p, ul, li, title 
-{
+h1, h3, p, ul, li, title {
 	font-family: Karla, sans-serif;
 }
 
 #slogan {
 	font-style: italic;
-	font-size: 42px
+	font-size: 42px;
 }
 
 h1 {
-	font-size: 50px
+	font-size: 50px;
 	font-color: #6088AD;
+}
+
+h3	{
+	font-size: ;
 }
 
 p {
