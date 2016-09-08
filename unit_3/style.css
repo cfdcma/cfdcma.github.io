@@ -12,11 +12,6 @@ body {
 	background-color: #EBECEC; 
 }
 
-h1, p {
-	color: #EBECEC;
-	font-family: Karla, sans-serif;
-}
-
-h3 {
+h1, h3, p, title {
 	font-family: Karla, sans-serif;
 }
