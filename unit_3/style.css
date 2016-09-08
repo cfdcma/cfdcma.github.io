@@ -9,6 +9,13 @@
 }
 
 body {
-    background-image: url(./images/Grand_Tetons.jpg);
-    background-size: cover;
+	background-color: #EBECEC; 
+}
+
+h1, p {
+	color: #EBECEC;
+}
+
+h3 {
+	font-family: Karla, sans-serif;
 }
