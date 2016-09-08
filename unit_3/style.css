@@ -10,8 +10,9 @@
 
 body {
 	background-color: #EBECEC; 
+	background-image: url("./images/Grand_Tetons.jpg")
 }
 
-h1, h3, p, title {
+h1, h3, p, ul, li, header, title {
 	font-family: Karla, sans-serif;
 }
