@@ -12,7 +12,7 @@ body {
 	background-color: #849FB9; 
 }
 
-h1, h3, p, ul, li, header, title 
+h1, h3, p, ul, li, title 
 {
 	font-family: Karla, sans-serif;
 }
@@ -22,19 +22,11 @@ h1, h3, p, ul, li, header, title
 	font-size: 42px
 }
 
-header {
-	font-size: 46px;
-}
-
-title {
-	font-size: 42px;
-}
-
 h1 {
-	font-size: 36px
-	font-color: #6088AD;}
+	font-size: 50px
+	font-color: #6088AD;
 }
 
 p {
-     font-size: 42px;
+     font-size: 28px;
 }
