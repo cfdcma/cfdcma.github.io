@@ -19,11 +19,6 @@ h1, p, ul, li, title {
 	font-family: Raleway, sans-serif;
 }
 
-#slogan {
-	font-style: italic;
-	font-size: 42px;
-}
-
 h1 {
 	font-size: 50px;
 	color: #EBECEC;
@@ -41,6 +36,7 @@ h3	{
 
 p {
      font-size: 28px;
+     line-height: 1.5em;
 }
 
 li	{
@@ -49,4 +45,10 @@ li	{
 
 img{
 	width:100%;
+	align: center;
+}
+
+#slogan {
+	font-style: italic;
+	font-size: 42px;
 }

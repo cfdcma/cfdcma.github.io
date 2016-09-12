@@ -1,14 +1,14 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway);
 @import url(https://fonts.googleapis.com/css?family=Taviraj);
 
-*, 
-*:before, 
-*:after {     
-	margin: 0;     
-	padding: 0;     
-	-moz-box-sizing: border-box;     
-	-webkit-box-sizing: border-box;     
-	box-sizing: border-box; 
+*,
+*:before,
+*after	{
+	margin: 0;
+	padding: 0;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-shadow: border-box;
 }
 
 body {
@@ -24,6 +24,11 @@ h1, p, ul, li, title {
 	font-size: 42px;
 }
 
+.season-trips	{
+	float: left;
+	width: 33.3333%;
+}
+
 h1 {
 	font-size: 50px;
 	color: #EBECEC;
@@ -35,7 +40,7 @@ h2	{
 }
 
 h3	{
-	font-size: 36px
+	font-size: 36px;
 	font-family: Taviraj, serif;
 }
 
