@@ -3,7 +3,7 @@
 
 *,
 *:before,
-*after	{
+*:after	{
 	margin: 0;
 	padding: 0;
 	-moz-box-sizing: border-box;
