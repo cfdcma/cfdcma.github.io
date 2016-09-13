@@ -8,7 +8,7 @@
 	padding: 0;
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
-	box-shadow: border-box;
+	box-sizing: border-box;
 }
 
 body {
@@ -27,6 +27,7 @@ h1, p, ul, li, title {
 .season-trips	{
 	float: left;
 	width: 33.3333%;
+	padding: 20px;
 }
 
 h1 {
