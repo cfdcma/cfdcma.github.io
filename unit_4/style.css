@@ -1,5 +1,5 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway);
-@import url(https://fonts.googleapis.com/css?family=Taviraj);
+@import url(https://fonts.googleapis.com/css?family=Questrial);
+@import url(https://fonts.googleapis.com/css?family=Old+Standard+TT);
 
 *,
 *:before,
@@ -15,25 +15,19 @@ body {
 	background-color: #849FB9; 
 }
 
-h1, p, ul, li, title {
-	font-family: Raleway, sans-serif;
-}
-
-#slogan {
-	font-style: italic;
-	font-size: 42px;
-}
-
-.season-trips	{
-	float: left;
-	width: 33.3333%;
-	padding: 20px;
+h1, 
+h2,
+h3, 
+title {
+	font-family: Questrial, sans-serif;
 }
 
 h1 {
 	font-size: 50px;
 	color: #EBECEC;
 	font-weight: bold;
+	text-align: center;
+	margin-top: 30px;
 }
 
 h2	{
@@ -42,17 +36,67 @@ h2	{
 
 h3	{
 	font-size: 36px;
-	font-family: Taviraj, serif;
+	margin-left: 20px;
+	margin-bottom: 20px;
 }
 
-p {
-     font-size: 28px;
+ul, 
+li,
+p	{
+	font-size: 50px;
+	font-family: Old Standard TT, serif;
+}
+
+ul {
+	margin-left: 20px;
+	margin-bottom: 20px;
 }
 
 li	{
 	font-size: 20px;
+	list-style-position: inside;
+}
+
+p {
+     font-size: 28px;
+     margin-top: 20px;
+     max-width: 75ch;
 }
 
 img{
 	width:100%;
 }
+
+.season-trips	{
+	float: left;
+	width: 33.3333%;
+	padding: 20px;
+}
+
+.resorts14	{
+	float: left;
+	width: 50%;
+	padding: 20px;
+}
+
+.resorts15	{
+	float: left;
+	width: 50%
+	padding: 20px;
+}
+
+#slogan {
+	font-style: italic;
+	font-size: 42px;
+	text-align:	center;
+}
+
+#intro {
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+
+#intro1 {
+	margin-left: 45px;
+}
+
