@@ -38,15 +38,16 @@ h3	{
 	font-size: 36px;
 	margin-left: 20px;
 	margin-bottom: 20px;
-	text-alig: center;
+	padding-bottom: 30px;
+	text-align: center;
 }
 
-hr{
-	border:none;
-	height:3px;
-	background-color: #3C3C3C;
-	width:2em;
-	margin:1em auto;
+hr	{
+	border: none;
+	height:	3px;
+	background-color: #3C3C3C
+	width:	2em;
+	margin: auto;
 }
 
 ul, 
@@ -78,12 +79,6 @@ img{
 	width:100%;
 }
 
-.season-trips	{
-	float: left;
-	width: 33.3333%;
-	padding: 20px;
-}
-
 .resorts14	{
 	float: left;
 	width: 50%;
@@ -92,18 +87,34 @@ img{
 
 .resorts15	{
 	float: left;
-	width: 50%
+	width: 33.3333%
 	padding: 20px;
+}
+
+.resorts16	{
+	float: left;
+	width: 25%
+	padding: 20px;
+} 
+
+.season-trips	{
+	float: left;
+	width: 33.3333%;
+	padding: 20px;
+}
+
+#intro {
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+
+#me {
+	text-align: center;
 }
 
 #slogan {
 	font-style: italic;
 	font-size: 42px;
 	text-align:	center;
-}
-
-#intro {
-	margin-left: 20px;
-	margin-bottom: 20px;
 }
 
