@@ -60,6 +60,8 @@ li	{
 p {
      font-size: 28px;
      margin-top: 20px;
+     margin-left: 30px;
+     margin-right: 30px
      max-width: 75ch;
 }
 
