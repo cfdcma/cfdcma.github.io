@@ -12,7 +12,16 @@
 }
 
 body {
-	background-color: #849FB9; 
+	background-color: #248CE5; 
+}
+
+footer {
+	margin: auto;
+}
+
+a {
+	color: #E0EA69;
+	text-decoration: none;
 }
 
 h1, 
@@ -24,7 +33,7 @@ title {
 
 h1 {
 	font-size: 50px;
-	color: #EBECEC;
+	color: #EBEBEC;
 	font-weight: bold;
 	text-align: center;
 	margin-top: 30px;
@@ -80,20 +89,34 @@ img{
 	width:100%;
 }
 
-.resorts14	{
+.r15 {
+	height: 50%;
+	width: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.r16 {
+	height: 50%;
+	width: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.resorts14	{ 
 	float: left;
 	width: 50%;
 	padding: 20px;
 }
 
 .resorts15	{
-	float: left;
 	width: 33.3333%
 	padding: 20px;
 }
 
 .resorts16	{
-	float: left;
 	width: 25%
 	padding: 20px;
 } 
@@ -110,7 +133,7 @@ img{
 }
 
 #me {
-	text-align: center;
+	margin: auto;
 }
 
 #slogan {
