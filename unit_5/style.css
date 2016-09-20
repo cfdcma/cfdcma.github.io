@@ -39,6 +39,7 @@ footer {
 	background-color: #FF957E;
 	border: 1px black solid;
 	padding: 20px;
+	text-align: center;
 }
 
 a {
@@ -49,7 +50,8 @@ a {
 h1, 
 h2,
 h3, 
-title {
+title,
+footer {
 	font-family: Questrial, sans-serif;
 }
 
@@ -78,15 +80,15 @@ p	{
 	font-family: Old Standard TT, serif;
 }
 
-ul, li {
+ul, 
+li {
 	font-size: 28px;
 	font-family: Questrial, sans-serif;
-	margin-left:40px;
+	margin-left: 20px;
 	margin-bottom: 20px;
 }
 
 li	{
-	font-size: 20px;
 	list-style-position: inside;
 }
 
@@ -167,11 +169,16 @@ img{
 	text-align:	center;
 }
 
-.clearfix {
 .clearfix:after { 
-content: ";
-display:block;
-clear: both;
+	content: ' ';
+	display:block;
+	clear: both;
 }
+
+#wrapper	{
+	width: 1080px;
+	margin-left: auto;
+	margin-right: auto;
 }
+
 
