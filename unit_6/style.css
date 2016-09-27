@@ -17,20 +17,26 @@ body {
 }
 
 header	{
+	background-color: #FFED74;
+	border: 1px black solid;
 	padding: 20px;
 }
 
 aside	{
+	background-color: #FFC675;
+	border: 1px black solid;
 	padding: 20px;
 }
 
 article {
+	background-color: #E89C6C;
 	border: 1px black solid;
 	padding: 20px;
 }
 
 footer {
 	margin: auto;
+	background-color: #FF957E;
 	border: 1px black solid;
 	padding: 20px;
 	text-align: center;
@@ -41,10 +47,18 @@ a {
 	text-decoration: none;
 }
 
+nav	{
+	display: block;
+	float: left;
+	font-weight: 300;
+	width: 300px;
+}
+
 h1, 
 h2,
 h3, 
 title,
+nav,
 footer {
 	font-family: Questrial, sans-serif;
 }
@@ -65,7 +79,7 @@ h3	{
 	font-size: 36px;
 	margin-left: 20px;
 	margin-bottom: 20px;
-	padding-bottom: 30px;
+	padding-bottom: 20px;
 	text-align: center;
 }
 
@@ -76,19 +90,18 @@ p	{
 
 ul, 
 li {
-	font-size: 28px;
+	font-size: 24px;
 	font-family: Questrial, sans-serif;
-	margin-left: 20px;
 	margin-bottom: 20px;
-	max-width: 75px;
+	margin-left: 20px;
 }
 
-li	{
+/*li	{
 	list-style-position: inside;
-}
+}*/
 
 p {
-     font-size: 28px;
+     font-size: 24px;
      margin-top: 20px;
      margin-left: 10px;
      margin-right: 20px;
@@ -99,8 +112,14 @@ p {
 img{
 	width:100%;
 	border-style: solid;
-	border-color: black;
-	border-width: 2px; 
+	border-color: grey;
+	border-width: 1px; 
+}
+
+.class	{
+	display: block;
+	background-color: gray;
+	padding: 20px;
 }
 
 .r15 {
@@ -149,6 +168,7 @@ img{
 
 .content-area {
 	padding: 20px;
+	background-color: #ffe2b8;
 }
 
 #intro {
@@ -177,5 +197,4 @@ img{
 	margin-left: auto;
 	margin-right: auto;
 }
-
 
