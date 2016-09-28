@@ -57,10 +57,9 @@ nav	{
 h1, 
 h2,
 h3, 
-title,
 nav,
 footer,
-section, {
+section {
 	font-family: Questrial, sans-serif;
 }
 
@@ -194,11 +193,11 @@ img{
 	content: " ";
 	clear: both;
 	height: 0;
-	
 }
 
 #wrapper	{
-	width: 1080px;
+	width: 100%;
+	max-width: 1080px;
 	margin-left: auto;
 	margin-right: auto;
 }
