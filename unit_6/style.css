@@ -12,17 +12,18 @@
 }
 
 body {
-	background-color: #248CE5; 
-	padding: 50px;
+	/*background-color: #248CE5;*/ 
+	background-color: #2196F3;
 }
 
 header	{
-	background-color: #FFED74;
+	background-color: #2196F3;
+	/*background-color: #FFED74;*/
 	border: 1px black solid;
 	padding: 20px;
 }
 
-aside	{
+/*aside	{
 	background-color: #FFC675;
 	border: 1px black solid;
 	padding: 20px;
@@ -33,10 +34,11 @@ article {
 	border: 1px black solid;
 	padding: 20px;
 }
+*/
 
 footer {
 	margin: auto;
-	background-color: #FF957E;
+	/*background-color: #FF957E;*/
 	border: 1px black solid;
 	padding: 20px;
 	text-align: center;
@@ -49,10 +51,23 @@ a {
 
 nav	{
 	display: block;
-	float: left;
 	font-weight: 300;
-	width: 300px;
+	width: 100%;
+	text-align: center;
+	margin: auto;
+
 }
+
+nav a:link{
+	font-family: 'Questrial', sans-serif;
+	margin:0 2px;
+	padding-bottom:5px;
+	font-size: 16px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	width: 120px;
+}
+
 
 h1, 
 h2,
@@ -60,7 +75,7 @@ h3,
 nav,
 footer,
 section {
-	font-family: Questrial, sans-serif;
+	font-family: 'Questrial', sans-serif;
 }
 
 h1 {
@@ -150,8 +165,9 @@ img{
 }
 
 .resorts16	{
-	width: 25%
+	width: 33.33%;
 	padding: 20px;
+	float: left;
 } 
 
 .season-trips	{
@@ -168,7 +184,7 @@ img{
 
 .content-area {
 	padding: 20px;
-	background-color: #ffe2b8;
+	/*background-color: #ffe2b8;*/
 }
 
 #intro {
@@ -196,12 +212,14 @@ img{
 }
 
 #wrapper	{
+	background-color: #2196F3;
 	width: 100%;
 	max-width: 1080px;
 	margin-left: auto;
 	margin-right: auto;
 }
 
+/*
 #two_column {
 	background-color: #FFB7CF;
 	border:	1px black solid;
@@ -223,7 +241,7 @@ img{
 	float: right;
 	width: 62%;
 }
-
+*/
 
 
 
