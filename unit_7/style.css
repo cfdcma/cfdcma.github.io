@@ -1,0 +1,251 @@
+@import url(https://fonts.googleapis.com/css?family=Questrial);
+@import url(https://fonts.googleapis.com/css?family=Old+Standard+TT);
+
+*,
+*:before,
+*:after	{
+	margin: 0;
+	padding: 0;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	/*background-color: #248CE5;*/ 
+	background-color: #2196F3;
+}
+
+header	{
+	background-color: #2196F3;
+	/*background-color: #FFED74;*/
+	/*border: 1px black solid;*/
+	padding: 20px;
+}
+
+hr {
+	height: 3px;
+	background-color: grey;
+}
+
+/*aside	{
+	background-color: #FFC675;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+article {
+	background-color: #E89C6C;
+	border: 1px black solid;
+	padding: 20px;
+}
+*/
+
+footer {
+	margin: auto;
+	/*background-color: #FF957E;*/
+	border: 1px black solid;
+	padding: 20px;
+	text-align: center;
+}
+
+a {
+	color: #E0EA69;
+	text-decoration: none;
+}
+
+nav	{
+	display: block;
+	font-weight: 300;
+	width: 100%;
+	text-align: center;
+	margin: auto;
+
+}
+
+nav a:link{
+	font-family: 'Questrial', sans-serif;
+	margin:0 2px;
+	padding-bottom:5px;
+	font-size: 16px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	width: 120px;
+}
+
+
+h1, 
+h2,
+h3, 
+nav,
+footer,
+section {
+	font-family: 'Questrial', sans-serif;
+}
+
+h1 {
+	font-size: 50px;
+	color: #EBEBEC;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 30px;
+}
+
+h2	{
+	font-size: 40px;
+}
+
+h3	{
+	font-size: 32px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+p	{
+	font-size: 36px;
+	font-family: Old Standard TT, serif;
+}
+
+ul, 
+li {
+	font-size: 24px;
+	font-family: Questrial, sans-serif;
+	margin-bottom: 20px;
+	margin-left: 20px;
+}
+
+/*li	{
+	list-style-position: inside;
+}*/
+
+p {
+     font-size: 24px;
+     margin-top: 20px;
+     margin-left: 10px;
+     margin-right: 20px;
+     max-width: auto;
+     text-align: left;
+}
+
+img{
+	width:100%;
+	border-style: solid;
+	border-color: grey;
+	border-width: 1px; 
+}
+
+.class	{
+	display: block;
+	background-color: gray;
+	padding: 20px;
+}
+
+.resorts14	{ 
+	float: left;
+	width: 50%;
+	padding: 20px;
+}
+
+.resorts15	{
+	width: 33.3333%;
+	padding: 20px;
+	float: left;
+}
+
+.resorts15b	{
+	width: 33.3333%;
+	padding: 20px;
+	float: left;
+}
+
+.resorts16	{
+	width: 33.33%;
+	padding: 20px;
+	float: left;
+} 
+
+.resorts16b {
+	width: 25%;
+	padding: 20px;
+	float: left;
+}
+
+.season-trips	{
+	float: left;
+	width: 33.3333%;
+	padding: 20px;
+}
+
+.extra-info {
+	float: left;
+	width: 25%;
+	padding: 20px;
+}
+
+.content-area {
+	padding: 20px;
+	/*background-color: #ffe2b8;*/
+}
+
+#intro {
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+
+#me {
+	margin: auto;
+}
+
+#slogan {
+	font-style: italic;
+	font-size: 42px;
+	text-align:	center;
+}
+
+.clearfix:after { 
+	visibility: hidden;	
+	display:block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+#wrapper	{
+	background-color: #2196F3;
+	width: 100%;
+	max-width: 1080px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*
+#two_column {
+	background-color: #FFB7CF;
+	border:	1px black solid;
+	padding-right: 20px;
+}
+
+#left {
+	background-color: #E582A2;
+	border:	1px black solid;
+	padding-right: 20px;
+	float: left;
+	width: 30%;
+}
+
+#right {
+	background-color: #E55B88;
+	border:	1px black solid;
+	padding-right: 20px;
+	float: right;
+	width: 62%;
+}
+*/
+
+
+
+
+
