@@ -215,19 +215,42 @@ img{
 @media screen and (max-width: 1052px){
 	.extra-info{
 		width: 100%;
+		text-align: center;
+	}
+	.season-trips{
+		width: 100%;
+		text-align: center;
 	}
 	.small {
-		font-size: 1em:;
+		font-size: 1em;
+	}
+	ul {
+		display: block;
+	}
+	li {
+		display: block;
+	}
+	body {
+		font-size: .5em;
 	}
 }
 
 #menu {
-	display: none;}
+	display: none;
+}
 
 @media screen and (max-width: 480px){
 	nav	{
 		height: 0;
 		overflow: hidden;
+		}
+	nav.active {
+		height: 100px;
+	}
+	nav a:link {
+		display: block;
+		width: 100%;
+		text-align: center;
 	}
 	#menu {
 		display: block;
@@ -235,54 +258,7 @@ img{
 		width: 30px;
 		background-color: orange;
 	}
-
 }
-
-@media screen and (max-width: ){
-
-}
-
-/*
-#two_column {
-	background-color: #FFB7CF;
-	border:	1px black solid;
-	padding-right: 20px;
-}
-
-#left {
-	background-color: #E582A2;
-	border:	1px black solid;
-	padding-right: 20px;
-	float: left;
-	width: 30%;
-}
-
-#right {
-	background-color: #E55B88;
-	border:	1px black solid;
-	padding-right: 20px;
-	float: right;
-	width: 62%;
-}
-*/
-
-/*aside	{
-	background-color: #FFC675;
-	border: 1px black solid;
-	padding: 20px;
-}
-
-article {
-	background-color: #E89C6C;
-	border: 1px black solid;
-	padding: 20px;
-}
-*/
-
-/*li	{
-	list-style-position: inside;
-}*/
-
 
 
 
