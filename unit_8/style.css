@@ -212,16 +212,29 @@ img{
 	margin-right: auto;
 }
 
-@media screen and (max-width: 1052){
-	.content-area clearfix{
-		float: none;
+@media screen and (max-width: 1052px){
+	.extra-info{
+		width: 100%;
 	}
 	.small {
 		font-size: 1em:;
 	}
 }
 
-@media screen and (max-width: ){
+#menu {
+	display: none;}
+
+@media screen and (max-width: 480px){
+	nav	{
+		height: 0;
+		overflow: hidden;
+	}
+	#menu {
+		display: block;
+		height: 30px;
+		width: 30px;
+		background-color: orange;
+	}
 
 }
 
