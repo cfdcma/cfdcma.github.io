@@ -175,10 +175,6 @@ img{
 	padding: 20px;
 }
 
-.small {	
-	font-size: 1.5em;
-}
-
 #intro {
 	margin-left: 20px;
 	margin-bottom: 20px;
@@ -271,6 +267,7 @@ img{
 		width: 30px;
 		background-color: #ffc952;
 		margin: auto;
+		
 	}	
 
 	p {
